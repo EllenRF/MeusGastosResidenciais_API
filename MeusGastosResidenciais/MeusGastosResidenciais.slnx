@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MeusGastosResidenciais.Application/MeusGastosResidenciais.Application.csproj" />
+  <Project Path="MeusGastosResidenciais.Domain/MeusGastosResidenciais.Domain.csproj" />
+  <Project Path="MeusGastosResidenciais.Infrastructure/MeusGastosResidenciais.Infrastructure.csproj" />
+  <Project Path="MeusGastosResidenciais.WebApi/MeusGastosResidenciais.WebApi.csproj" />
+</Solution>
