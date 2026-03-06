@@ -2,6 +2,9 @@ using MeusGastosResidenciais.Domain.Enums;
 
 namespace MeusGastosResidenciais.Domain.Entities
 {
+/// <summary>
+/// Representa uma transação no sistema.
+/// </summary>
     public class Transacao
     {
         public int Id { get; set; }

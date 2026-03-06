@@ -7,6 +7,7 @@ namespace MeusGastosResidenciais.Domain.Enums
     public enum TipoTransacao
     {
     Despesa = 1,
-    Receita = 2
+    Receita = 2,
+    Ambas = 3
     }
 }

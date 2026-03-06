@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MeusGastosResidenciais.Infrastructure.Data;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 

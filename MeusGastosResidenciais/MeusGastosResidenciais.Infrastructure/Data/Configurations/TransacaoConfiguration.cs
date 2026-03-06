@@ -21,10 +21,10 @@ public class TransacaoConfiguration : IEntityTypeConfiguration<Transacao>
 
         builder.Property(t => t.Valor)
             .IsRequired()
-            .HasColumnType("decimal(18,2)"); // dinheiro/valores
+            .HasColumnType("decimal(18,2)");
 
         builder.Property(t => t.Tipo)
-            .IsRequired(); // enum como int
+            .IsRequired();
 
         builder.Property(t => t.CriadoEm)
             .IsRequired()
@@ -33,7 +33,7 @@ public class TransacaoConfiguration : IEntityTypeConfiguration<Transacao>
         builder.HasOne(t => t.Pessoa)
             .WithMany(p => p.Transacoes)
             .HasForeignKey(t => t.PessoaId)
-            .OnDelete(DeleteBehavior.Cascade); // reforça o requisito
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasOne(t => t.Categoria)
             .WithMany(c => c.Transacoes)
