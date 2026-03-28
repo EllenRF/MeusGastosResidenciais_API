@@ -1,5 +1,5 @@
 using MediatR;
-using MeusGastosResidenciais.Application.Pessoas.CreatePessoa.DTOs;
+using MeusGastosResidenciais.Application.Pessoas.DTOs;
 
 namespace MeusGastosResidenciais.Application.Pessoas.CreatePessoa
 {

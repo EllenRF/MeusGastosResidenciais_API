@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace MeusGastosResidenciais.Application.Pessoas.CreatePessoa.DTOs
+namespace MeusGastosResidenciais.Application.Pessoas.DTOs
 {
     /// <summary>
     /// DTO usado para retornar dados de Pessoa para a API.
