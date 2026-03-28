@@ -1,5 +1,5 @@
 using MediatR;
-using MeusGastosResidenciais.Application.Pessoas.CreatePessoa.DTOs;
+using MeusGastosResidenciais.Application.Pessoas.DTOs;
 using MeusGastosResidenciais.Domain.Entities;
 using MeusGastosResidenciais.Infrastructure.Data;
 

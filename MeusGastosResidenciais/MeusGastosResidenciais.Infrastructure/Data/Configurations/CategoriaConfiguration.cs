@@ -19,9 +19,9 @@ public class CategoriaConfiguration : IEntityTypeConfiguration<Categoria>
             .IsRequired()
             .HasMaxLength(400);
 
-        builder.Property(c => c.TipoCategoria)
+        builder.Property(c => c.FinalidadeCategoria)
             .IsRequired();
-            
+
         builder.HasMany(c => c.Transacoes)
             .WithOne(t => t.Categoria)
             .HasForeignKey(t => t.CategoriaId)

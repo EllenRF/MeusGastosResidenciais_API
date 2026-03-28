@@ -23,7 +23,7 @@ public class TransacaoConfiguration : IEntityTypeConfiguration<Transacao>
             .IsRequired()
             .HasColumnType("decimal(18,2)");
 
-        builder.Property(t => t.Tipo)
+        builder.Property(t => t.TipoTransacao)
             .IsRequired();
 
         builder.Property(t => t.CriadoEm)
